@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "npm install && cd ../packages/engine && npm install && cd ../../web",
+  "installCommand": "cd ../packages/engine && npm install && cd ../../web && npm install",
   "git": {
     "deploymentEnabled": {
       "main": true
