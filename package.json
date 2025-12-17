@@ -1,0 +1,13 @@
+{
+  "name": "test-llm-app-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=packages/engine && npm run build --workspace=web",
+    "dev": "npm run dev --workspace=web"
+  }
+}
